@@ -1,0 +1,31 @@
+{
+    "timestamp": "2026-01-16T07:19:43.716835",
+    "training_data": {
+        "initial_shape": [
+            7642,
+            22
+        ],
+        "final_shape": [
+            7642,
+            22
+        ],
+        "duplicates_removed": 0,
+        "missing_values": 0,
+        "outliers_handled": 0
+    },
+    "test_data": {
+        "initial_shape": [
+            3337,
+            22
+        ],
+        "final_shape": [
+            3337,
+            22
+        ],
+        "duplicates_removed": 0,
+        "missing_values": 0,
+        "outliers_handled": 0
+    },
+    "outlier_method": "clip",
+    "missing_value_strategy": "median"
+}

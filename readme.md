@@ -7,15 +7,17 @@ Montanuniversität Leoben.
 Repository Structure
 
 - `src/`
-  - `notebooks/` – Jupyter notebooks with data exploration, model training, and evaluation.
+  - `notebooks/` – Text and .json files of output.
   - `scripts/` – Python scripts for data preprocessing, model training, and evaluation.
 - `data/`
   - `raw/` – Original input datasets.
   - `processed/` – Cleaned and transformed datasets used for modeling.
 - `docs/`
   - `report/` – Project report (PDF).
+  - `ppt/` - Project presentation.
 - `results/`
-  - `figures/` – Plots and visualizations of model performance and data analysis.
+  - `figures/` – visualizations of model performance and data analysis.
+  - `plots/` - plots of model performance
   - `tables/` – Metrics table.
 - `README.md` – This file describing the project and repository layout.
 
@@ -39,17 +41,17 @@ The main objectives are:
 
 - Data preprocessing includes handling missing values, normalization, and train–test splitting.
 - Multiple regression models are trained and tuned, and their performance is compared using common error metrics and visual diagnostics.
-- Visualizations such as error distributions, predicted vs. true plots, and feature importance (for tree-based models) are generated and stored in `results/figures/`.
+- Visualizations such as error distributions, predicted vs. true plots, are generated and stored in `results/figures/`.
 
 ### Models Used
 
 The following supervised regression models are implemented and compared:
 
-- Linear Regression  
+- Random Forest Regressor
 - Support Vector Regression (SVR)  
-- K-Nearest Neighbors (KNN) Regressor  
-- Decision Tree Regressor  
-- Random Forest Regressor  
+- Multi layor Perceptron (MLP)
+- Gaussian Process Regressor
+
 
 ### Tools Used
 
@@ -63,8 +65,7 @@ The following supervised regression models are implemented and compared:
 
 Model performance is evaluated using the following metrics:
 
-- Mean Absolute Error (MAE)  
-- Mean Squared Error (MSE)  
+- Mean Absolute Error (MAE)    
 - Root Mean Squared Error (RMSE)  
 - Coefficient of Determination (R² Score)  
 
